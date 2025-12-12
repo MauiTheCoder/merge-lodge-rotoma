@@ -172,7 +172,7 @@ export default function Home() {
               <div key={src} className="relative h-64 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow">
                 <Image
                   src={src}
-                  alt={src.split('/').pop()?.replace(/%20/g, ' ').replace('.webp','')}
+                  alt={(src.split('/').pop() ?? "").replace(/%20/g, ' ').replace('.webp','')}
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
                 />

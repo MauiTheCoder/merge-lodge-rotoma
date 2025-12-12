@@ -153,39 +153,31 @@ export default function Home() {
             Experience Lake Rotoma
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="relative h-80 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow">
-              <Image
-                src="/optimized/Merge%20Lodge.webp"
-                alt="Caravan sites with lake view"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-            <div className="relative h-80 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow">
-              <Image
-                src="/optimized/Lake%20beach%20zoomed%20out.webp"
-                alt="Lake Rotoma shoreline"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-            <div className="relative h-80 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow">
-              <Image
-                src="/optimized/Front%20camping%20sites.webp"
-                alt="Nearby amenities"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-            <div className="relative h-80 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow">
-              <Image
-                src="/optimized/Shops%20zoomed%20out.webp"
-                alt="Local services"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {[
+              "/optimized/Merge%20Lodge.webp",
+              "/optimized/Lake%20beach%20zoomed%20out.webp",
+              "/optimized/Front%20camping%20sites.webp",
+              "/optimized/Shops%20zoomed%20out.webp",
+              "/optimized/Sunset%20across%20the%20lake%20.webp",
+              "/optimized/Pinic%20table%20area.webp",
+              "/optimized/Boat%20ramp.webp",
+              "/optimized/Campers%20area.webp",
+              "/optimized/Campsite%20and%20lake%20from%20top%20house.webp",
+              "/optimized/Campsite%20entrance.webp",
+              "/optimized/Lake%20meets%20the%20wall.webp",
+              "/optimized/Lake%20beach%20zoomed%20in.webp",
+              "/optimized/Shops%20zoomed%20in.webp",
+            ].map((src) => (
+              <div key={src} className="relative h-64 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow">
+                <Image
+                  src={src}
+                  alt={src.split('/').pop()?.replace(/%20/g, ' ').replace('.webp','')}
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>

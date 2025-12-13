@@ -204,11 +204,19 @@ export default function Home() {
               <a href="mailto:calfgirl10@gmail.com" aria-label="Contact Merge Lodge by email">Contact Us</a>
             </Button>
             <Button
+              asChild
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white/10 px-8 py-6 text-lg"
             >
-              Get Directions
+              <a
+                href="https://www.google.com/maps/place/Lake+Rotoma+Gas+(BP)/@-38.0524041,176.5710452,20z/data=!3m1!5s0x6d6e8cd77bcde3ab:0x98d852a1ff937eba!4m9!1m2!2m1!1slake+rotoma!3m5!1s0x6d6e9d882ad7e3eb:0x6d5fc37752aea8f!8m2!3d-38.0525253!4d176.570714!16s%2Fg%2F1pycbyh6n?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open Lake Rotoma location in Google Maps"
+              >
+                Get Directions
+              </a>
             </Button>
           </div>
         </div>

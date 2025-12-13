@@ -197,10 +197,11 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             <Button
+              asChild
               size="lg"
               className="bg-white text-sky-900 hover:bg-sky-50 px-8 py-6 text-lg"
             >
-              Contact Us
+              <a href="mailto:calfgirl10@gmail.com" aria-label="Contact Merge Lodge by email">Contact Us</a>
             </Button>
             <Button
               size="lg"

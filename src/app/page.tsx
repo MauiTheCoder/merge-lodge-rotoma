@@ -193,11 +193,11 @@ export default function Home() {
                 <div className="p-6">
                   <h4 className="text-2xl font-semibold mb-2 text-sky-900">Lake House 1</h4>
                   <p className="text-gray-600 mb-5">
-                    A beautifully appointed lake house featuring a stunning glass-enclosed veranda, modern marble kitchen with island bench, and spacious open-plan living with timber floors — perfect for families or groups.
+                    A beautifully appointed 2 bedroomlake house featuring a stunning enclosed veranda, modern kitchen with island bench, and spacious open-plan living with timber-painted floors, perfect for families or groups.
                   </p>
                   <ul className="flex flex-col gap-2 text-sm text-gray-500 mb-6">
-                    <li>✓ Glass-enclosed veranda with outdoor seating</li>
-                    <li>✓ Modern marble kitchen, fully equipped</li>
+                    <li>✓ Enclosed veranda with outdoor seating</li>
+                    <li>✓ Modern kitchen, fully equipped</li>
                     <li>✓ Spacious lounge with large TV</li>
                     <li>✓ Just up the road from the camping ground</li>
                   </ul>
@@ -233,7 +233,7 @@ export default function Home() {
                 <div className="p-6">
                   <h4 className="text-2xl font-semibold mb-2 text-sky-900">Lake House 2</h4>
                   <p className="text-gray-600 mb-5">
-                    A comfortable and well-equipped holiday home with a relaxed lounge, fully equipped kitchen, cosy bedroom, and a sunny outdoor dining area — ideal for a quiet lakeside escape.
+                    A comfortable and well-equipped 2 bedroom holiday home with a relaxed lounge, fully equipped kitchen, cosy bedroom, and a sunny outdoor dining area — ideal for a quiet lakeside escape.
                   </p>
                   <ul className="flex flex-col gap-2 text-sm text-gray-500 mb-6">
                     <li>✓ Fully equipped kitchen</li>
@@ -281,7 +281,7 @@ export default function Home() {
               {/* Fully Furnished Caravan */}
               <Card className="overflow-hidden hover:shadow-xl transition-shadow border-sky-400 ring-2 ring-sky-400">
                 <div className="bg-sky-600 text-white text-center py-2 text-sm font-semibold tracking-wider uppercase">
-                  Fully Furnished — Arrive &amp; Relax
+                  Fully Furnished — Arrive and Relax
                 </div>
                 {/* Two photos side by side */}
                 <div className="grid grid-cols-2 gap-0.5">

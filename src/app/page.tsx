@@ -191,9 +191,9 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h4 className="text-2xl font-semibold mb-2 text-sky-900">Lake House 1</h4>
+                  <h4 className="text-2xl font-semibold mb-2 text-sky-900">Lake House 1 - Two Bedrooms</h4>
                   <p className="text-gray-600 mb-5">
-                    A beautifully appointed 2 bedroomlake house featuring a stunning enclosed veranda, modern kitchen with island bench, and spacious open-plan living with timber-painted floors, perfect for families or groups.
+                    A beautifully appointed 2 bedroom lake house featuring a stunning enclosed veranda, modern kitchen with island bench, and spacious open-plan living with timber-painted floors, perfect for families or groups.
                   </p>
                   <ul className="flex flex-col gap-2 text-sm text-gray-500 mb-6">
                     <li>✓ Enclosed veranda with outdoor seating</li>
@@ -231,7 +231,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h4 className="text-2xl font-semibold mb-2 text-sky-900">Lake House 2</h4>
+                  <h4 className="text-2xl font-semibold mb-2 text-sky-900">Lake House 2 - Two Bedrooms</h4>
                   <p className="text-gray-600 mb-5">
                     A comfortable and well-equipped 2 bedroom holiday home with a relaxed lounge, fully equipped kitchen, cosy bedroom, and a sunny outdoor dining area — ideal for a quiet lakeside escape.
                   </p>
